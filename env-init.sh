@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+cat /etc/redsocks_default.conf > /etc/redsocks.conf
 
 if [ -n "$SOCKS_IP" ]
 then

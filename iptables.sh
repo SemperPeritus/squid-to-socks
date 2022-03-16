@@ -1,3 +1,5 @@
+#!/bin/bash
+
 iptables -t nat -N REDSOCKS
 
 iptables -t nat -A REDSOCKS -d 0.0.0.0/8 -j RETURN
